@@ -1,4 +1,0 @@
-<launch> 
-<node name= "driver_py_node" pkg= "fowardKinematics_pkg" type= "driver_py_node.py" output="screen"/> 
-<node name= "simulator_py_node" pkg= "fowardKinematics_pkg" type= "simulator_py_node.py" output="screen" /> 
-</launch> 
