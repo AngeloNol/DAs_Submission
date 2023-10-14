@@ -7,6 +7,7 @@
 # Instruction to excute the assignment
 * To excute the assigment we need two file one that was driver and the other simulator. Where the driver would get the input for the left and right velocity. The simulator would calculate the pose of the robot
 # Screenshot
+./images
 * without launch
   ![Screenshot from 2023-10-13 17-16-12](https://github.com/AngeloNol/DAs_Submission/assets/98061732/3b533566-c81b-4130-bd3f-56bdd0062b47)
   * with launch
@@ -14,6 +15,6 @@
 # Student Info
 * Student Name: Angelo Nolasco
 * Student Email: Nolasco@unlv.nevada.edu
-* youtube link DAs:
+* youtube link DAs: https://youtu.be/pbceOYqwSmo
 
 
