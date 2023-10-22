@@ -7,7 +7,7 @@
 # Instruction to excute the assignment
 * To excute the assigment we need two file one that was driver and an controller. Where the driver would pusblish the pose. The controller would publish the current pose and pusblish the cmd_vel, and also calculate the differential driver inverse kinematics. 
 # Screenshot
-https://github.com/AngeloNol/DAs_Submission/tree/main/DAs/DA1/images
+
 * without launch
 
 * with launch
