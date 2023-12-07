@@ -9,9 +9,13 @@
 # Screenshot
 [https://github.com/AngeloNol/DAs_Submission/tree/main/DAs/DA1/images](https://github.com/AngeloNol/DAs_Submission/tree/main/DAs/DA3/Screenshots)
 * TF points
-https://github.com/AngeloNol/DAs_Submission/tree/main/DAs/DA3/Screenshots
-* with launch
-    ![Screenshot from 2023-10-13 17-21-58](https://github.com/AngeloNol/DAs_Submission/assets/98061732/35183342-8633-471a-b029-e687dfcfdc66)
+    ![wholecar](https://github.com/AngeloNol/DAs_Submission/assets/98061732/f80a04a4-a235-44a1-bdf8-d03fa8c59daa)
+* Top view with names
+    ![topnames](https://github.com/AngeloNol/DAs_Submission/assets/98061732/6a3c7ffc-51eb-4331-be14-f92c158cd550)
+* Gazebo front view
+    ![gazebofront](https://github.com/AngeloNol/DAs_Submission/assets/98061732/b62aa5d0-6b59-4c10-93e4-2524eab3fea1)
+* Gazebo Top view
+   ![gazebotop](https://github.com/AngeloNol/DAs_Submission/assets/98061732/bcde2fda-3e49-470e-8e08-b356833beaa5)   
 # Student Info
 * Student Name: Angelo Nolasco
 * Student Email: Nolasco@unlv.nevada.edu
