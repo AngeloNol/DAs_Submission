@@ -9,7 +9,7 @@
 # Screenshot
 [https://github.com/AngeloNol/DAs_Submission/tree/main/DAs/DA1/images](https://github.com/AngeloNol/DAs_Submission/tree/main/DAs/DA3/Screenshots)
 * TF points
-  ![Screenshot from 2023-10-13 17-16-12](https://github.com/AngeloNol/DAs_Submission/assets/98061732/3b533566-c81b-4130-bd3f-56bdd0062b47)
+https://github.com/AngeloNol/DAs_Submission/tree/main/DAs/DA3/Screenshots
 * with launch
     ![Screenshot from 2023-10-13 17-21-58](https://github.com/AngeloNol/DAs_Submission/assets/98061732/35183342-8633-471a-b029-e687dfcfdc66)
 # Student Info
