@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<robot name="my_robot">
+  
+  <!--Base Link-->
+  <link name="base_link">
+  </link>
+  
+  <!--Chassis-->
+  <link name="chassis">
+    <visual>
+      <geometry>
+        <box size="0.2794 0.2032 0.0254"/>
+      </geometry>
+      <material name="red"/>
+    </visual>
+  </link>
+  
+  <joint name="chassis_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="chassis"/>
+  </joint>
+  
+  <!--Materials-->
+  <material name="blue">
+    <color rgba="0 0 0.8 0.9"/>
+  </material>
+
+  <material name="green">
+    <color rgba="0 0.8 0. 0.75"/>
+  </material>
+
+  <material name="red">
+    <color rgba="0.8 0.0 0. 0.75"/>
+  </material>
+
+   <material name="orange">
+    <color rgba="1 0.3 0.1 1"/>
+  </material>
+
+  <!--Front wheel right-->
+  <link name="front_wheel_right">
+    <visual>
+      <geometry>
+        <cylinder length="0.025" radius="0.0325"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+  </link>
+
+  <joint name="front_wheel_right_joint" type="continuous">
+    <parent link="chassis"/>
+    <child link="front_wheel_right"/>
+    <origin xyz="0.0897 0.1270 -0.00762" rpy="1.5707 0 0"/>
+    <axis xyz="0 0 -1"/>
+  </joint>
+
+  <!--Front wheel left-->
+  <link name="front_wheel_left">
+    <visual>
+      <geometry>
+        <cylinder length="0.025" radius="0.0325"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+  </link>
+
+  <joint name="front_wheel_left_joint" type="continuous">
+    <parent link="chassis"/>
+    <child link="front_wheel_left"/>
+    <origin xyz="0.0897 -0.1270 -0.00762" rpy="-1.5707 0 0"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <!--Rear wheel right-->
+  <link name="rear_wheel_right">
+    <visual>
+      <geometry>
+        <cylinder length="0.025" radius="0.0325"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+  </link>
+
+  <joint name="rear_wheel_right_joint" type="continuous">
+    <parent link="chassis"/>
+    <child link="rear_wheel_right"/>
+    <origin xyz="-0.0897 0.1270 -0.00762" rpy="1.5707 0 0"/>
+    <axis xyz="0 0 -1"/>
+  </joint>
+
+  <!--Rear wheel left-->
+  <link name="rear_wheel_left">
+    <visual>
+      <geometry>
+        <cylinder length="0.025" radius="0.0325"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+  </link>
+
+  <joint name="rear_wheel_left_joint" type="continuous">
+    <parent link="chassis"/>
+    <child link="rear_wheel_left"/>
+    <origin xyz="-0.0897 -0.1270 -0.00762" rpy="-1.5707 0 0"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <!--nano box-->
+  <link name="nano">
+    <visual>
+      <geometry>
+        <box size="0.045 0.07 0.029"/>
+      </geometry>
+      <material name="green"/>
+    </visual>
+  </link>
+
+  <joint name="nano_joint" type="fixed">
+    <parent link="chassis"/>
+    <child link="nano"/>
+    <origin xyz="0.0951979  -0.0170979 0.0254" rpy="0 0 0"/>
+  </joint>
+
+   <!--pillar box-->
+  <link name="pillar1">
+    <visual>
+      <geometry>
+        <cylinder radius="0.005" length="0.06" />
+      </geometry>
+      <material name="orange"/>
+    </visual>
+  </link>
+
+  <joint name="pillar1_joint" type="fixed">
+    <parent link="chassis"/>
+    <child link="pillar1"/>
+    <origin xyz="-0.100881 -0.0655712 0.0354" rpy="0 0 0"/>
+  </joint>
+
+   <!--pillar2 box-->
+  <link name="pillar2">
+    <visual>
+      <geometry>
+        <cylinder radius="0.005" length="0.06" />
+      </geometry>
+      <material name="orange"/>
+    </visual>
+  </link>
+
+  <joint name="pillar2_joint" type="fixed">
+    <parent link="chassis"/>
+    <child link="pillar2"/>
+    <origin xyz="-0.0282339 -0.0645076 0.0354" rpy="0 0 0"/>
+  </joint>
+
+    <!--pillar3 box-->
+  <link name="pillar3">
+    <visual>
+      <geometry>
+        <cylinder radius="0.005" length="0.06" />
+      </geometry>
+      <material name="orange"/>
+    </visual>
+  </link>
+
+  <joint name="pillar3_joint" type="fixed">
+    <parent link="chassis"/>
+    <child link="pillar3"/>
+    <origin xyz="-0.0997477 -0.0001920 0.0354" rpy="0 0 0"/>
+  </joint>
+
+    <!--pillar4 box-->
+  <link name="pillar4">
+    <visual>
+      <geometry>
+        <cylinder radius="0.005" length="0.06" />
+      </geometry>
+      <material name="orange"/>
+    </visual>
+  </link>
+
+  <joint name="pillar4_joint" type="fixed">
+    <parent link="chassis"/>
+    <child link="pillar4"/>
+    <origin xyz="-0.0336015 -0.000379 0.0354" rpy="0 0 0"/>
+  </joint>
+
+      <!--expansion box-->
+  <link name="expansion">
+    <visual>
+      <geometry>
+        <box size="0.1524 0.1016 0.0154" />
+      </geometry>
+      <material name="red"/>
+    </visual>
+  </link>
+
+  <joint name="expansion_joint" type="fixed">
+    <parent link="chassis"/>
+    <child link="expansion"/>
+    <origin xyz="-0.0651911 -0.0309193 0.0654" rpy="0 0 0"/>
+  </joint>
+
+     <!--ros box-->
+  <link name="ros">
+    <visual>
+      <geometry>
+        <box size="0.055999888 0.085000084  0.0154" />
+      </geometry>
+      <material name="green"/>
+    </visual>
+  </link>
+
+  <joint name="ros_joint" type="fixed">
+    <parent link="chassis"/>
+    <child link="ros"/>
+    <origin xyz="-0.0236561 -0.0258188 0.0754" rpy="0 0 0"/>
+  </joint>
+
+     <!--lidar box-->
+  <link name="lidar">
+    <visual>
+      <geometry>
+        <cylinder radius="0.0254" length="0.0208" />
+      </geometry>
+      <material name="green"/>
+    </visual>
+  </link>
+
+  <joint name="lidar_joint" type="fixed">
+    <parent link="chassis"/>
+    <child link="lidar"/>
+    <origin xyz="-0.0942216 -0.0311069 0.0754" rpy="0 0 0"/>
+  </joint>
+
+
+</robot>
+
