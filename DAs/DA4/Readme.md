@@ -1,9 +1,8 @@
-#  Assigment 3 URDF - 
+#  Assigment 3 URDF - Angelo Nolasco
 # Description of the problem and Solution
-*
-* 
+* The goal of the assignment is to do the step provide in canvas and the step from the yahboom tutorial. The first step is to make the robot. Second step is to setup the STM32CubeIDE and test motors,encoders,imu and OLED to check if the ROS-Controller works. Three step is to setup the Jetson nano with the SD card image, and then setup the wifi on the Jetson. Then we need setup the USB on the Jetson. Fourth Step was to calibrate the robot by doing course 9 of the Yahboom rosmaster-X1. The last step was to do the lidar course from the Yahboom rosmaster-X1.  
 # Instruction to excute the assignment
-* 
+* You need to follow the step in webcanvas and the step in yahboom for the robot control and lidar
 # Screenshot
 * Robot Control: https://github.com/AngeloNol/DAs_Submission/tree/main/DAs/DA4/screenshots/09%20Robot%20Control%20Course
 * Lidar: https://github.com/AngeloNol/DAs_Submission/tree/main/DAs/DA4/screenshots/Lidar%20Course
