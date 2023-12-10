@@ -30,6 +30,9 @@
   * 2 Robot PID debugging : https://youtu.be/TMBs92I95C0 
   * 3 Robot information release : https://youtu.be/A_2Lgp0r82k , https://youtu.be/SqoDbTerIaw
   * 4 Robot Keyboard Control : https://youtu.be/rHDS73TVRaY
-  *  7 Robot calibration  : https://youtu.be/z-NpVws0rV4 , 
+  *  7 Robot calibration  : https://youtu.be/z-NpVws0rV4
+* "11 Lidar Course"
+    * 1 Lidar basics: https://youtu.be/NX1wkCmSoGI
+    * 6.gmapping mapping algorithm: https://youtu.be/Uhmf4YT3NdE
 
 
