@@ -26,8 +26,8 @@
         ![yahboomMapStartup](https://github.com/AngeloNol/DAs_Submission/assets/98061732/eb389494-0b94-4dd5-997d-88b4cfcfff21)
       ![baselink](https://github.com/AngeloNol/DAs_Submission/assets/98061732/0e4488d1-b04e-46f4-a4bb-db11c2c59677)
 # Student Info
-* Student Name: 
-* Student Email: 
+* Student Name: Angelo Nolasco
+* Student Email: nolasco@unlv.nevada.edu
 * youtube link DAs
 * Hardware Cousre
   * Encoder : https://youtu.be/-MjZen4oSLY
