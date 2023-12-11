@@ -12,5 +12,7 @@
 # Student Info
 * Student Name: Angelo Nolasco
 * Student Email: nolasco@unlv.nevada.edu
-* youtube link DAs :
+* youtube link DAs
+    * Gmapping : https://youtu.be/wDDJmtO6bEI
+    * Navigation : https://youtu.be/v3Zdue3GRXg
 
