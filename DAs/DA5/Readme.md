@@ -1,4 +1,4 @@
-#  Assigment 5 Mapping & Navigation - Angelo Nolasco
+#  Assigment 5 Mapping & Navigation - 
 # Description of the problem and Solution
 * 
 # Instruction to excute the assignment
@@ -10,8 +10,8 @@
 
 
 # Student Info
-* Student Name: Angelo Nolasco
-* Student Email: nolasco@unlv.nevada.edu
+* Student Name: 
+* Student Email: 
 * youtube link DAs
     * Gmapping : https://youtu.be/wDDJmtO6bEI
     * Navigation : https://youtu.be/v3Zdue3GRXg
